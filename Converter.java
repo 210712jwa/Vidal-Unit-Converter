@@ -27,7 +27,7 @@ public class Converter {
 			else {
 			System.out.println("Please input an amount or distance:\r\n");
 			Scanner input = new Scanner(System.in);
-			float amount = input.nextInt();
+			float amount = input.nextFloat();
 			switch (selection) {
 			case 1:
 				// 1 cup = 48 teaspoons

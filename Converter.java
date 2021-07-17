@@ -20,7 +20,7 @@ public class Converter {
 		//Begins menu selection loop
 		while (selection != 4)
 		{
-			if(selection > 4)
+			if(selection > 4 | selection < 1)
 			{
 				System.out.println("error");
 			}
